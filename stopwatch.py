@@ -1,4 +1,3 @@
-
 import time
 
 class Stopwatch():
@@ -14,5 +13,5 @@ class Stopwatch():
             return 0
         return time.time() - self.start_time
 
-    def reset(self):
+    def restart(self):
         self.start_time = time.time()
